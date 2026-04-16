@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me Treat | さとう式リンパケア・講座・イヤーカフ</title>
+  <meta name="description" content="さとう式リンパケアインストラクター Elymphによる講座案内とイヤーカフ販売。ずっと頑張ってきたあなたへ。今日から、私が一番大事。">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== ヘッダー ========== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#top" class="header__logo">
+        <img src="images/logo.png" alt="Me Treat" class="header__logo-img">
+      </a>
+      <nav class="header__nav" id="nav">
+        <ul class="header__nav-list">
+          <li><a href="#about" class="header__nav-link">さとう式とは</a></li>
+          <li><a href="#courses" class="header__nav-link">講座案内</a></li>
+          <li><a href="#earcuffs" class="header__nav-link">イヤーカフ</a></li>
+          <li><a href="#profile" class="header__nav-link">プロフィール</a></li>
+          <li><a href="#notes" class="header__nav-link">Note</a></li>
+          <li><a href="#contact" class="header__nav-link header__nav-link--cta">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <!-- ハンバーガーメニュー（スマホ用） -->
+      <button class="header__hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== ヒーロー ========== -->
+  <section class="hero" id="top">
+    <!-- スライドショー背景 -->
+    <div class="hero__slides">
+      <div class="hero__slide hero__slide--lotus active" style="background-image: url('images/hero1.jpg')"></div>
+      <div class="hero__slide hero__slide--water" style="background-image: url('images/hero2.png')"></div>
+      <div class="hero__slide hero__slide--soft" style="background-image: url('images/hero3.jpg')"></div>
+    </div>
+    <!-- オーバーレイ -->
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__sub fade-in">さとう式リンパケア × イヤーカフ</p>
+      <h1 class="hero__title fade-in delay-1">
+        ずっと頑張ってきた<br>あなたへ。
+      </h1>
+      <p class="hero__catch fade-in delay-2">今日から、私が一番大事。</p>
+      <div class="hero__buttons fade-in delay-3">
+        <a href="#courses" class="btn btn--primary">講座を見る</a>
+        <a href="#about" class="btn btn--outline">さとう式とは</a>
+      </div>
+    </div>
+    <!-- スライドインジケーター -->
+    <div class="hero__indicators">
+      <button class="hero__indicator active" data-index="0" aria-label="スライド1"></button>
+      <button class="hero__indicator" data-index="1" aria-label="スライド2"></button>
+      <button class="hero__indicator" data-index="2" aria-label="スライド3"></button>
+    </div>
+    <div class="hero__scroll">
+      <span class="hero__scroll-line"></span>
+      <span class="hero__scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== さとう式リンパケアとは ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">About</span>
+        <h2 class="section__title">さとう式リンパケアとは</h2>
+        <p class="section__lead">
+          触れるだけで、体も心もゆるんでいく。<br>
+          「頑張る」を手放したとき、本当の変化が始まります。
+        </p>
+      </div>
+
+      <div class="about__cards">
+        <!-- カード1 -->
+        <div class="about__card fade-up">
+          <div class="about__card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3 class="about__card-title">「頑張ったら破門」</h3>
+          <p class="about__card-text">
+            さとう式の有名な教え。力を入れれば入れるほど、体は緊張します。
+            ゆるめることこそが、最大のケア。頑張ることをやめる許可を、自分に出しましょう。
+          </p>
+        </div>
+
+        <!-- カード2 -->
+        <div class="about__card fade-up delay-1">
+          <div class="about__card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 8c8.8 0 16 7.2 16 16s-7.2 16-16 16S8 32.8 8 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M24 16v8l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="about__card-title">生まれ変わりのケア</h3>
+          <p class="about__card-text">
+            さとう式は「生まれ変わりのケア」とも呼ばれます。
+            体の深部からゆるみ、長年積み重なった緊張が解放されていく体験は、
+            まるで新しい自分に生まれ変わるよう。
+          </p>
+        </div>
+
+        <!-- カード3 -->
+        <div class="about__card fade-up delay-2">
+          <div class="about__card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 24c0-6.6 5.4-12 12-12s12 5.4 12 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M24 36c-3.3 0-6-2.7-6-6h12c0 3.3-2.7 6-6 6z" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M20 20c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="about__card-title">ゆるめるケア</h3>
+          <p class="about__card-text">
+            押す・揉む・強くする——これがケアの常識でした。
+            さとう式は「ゆるめる」ことに特化した全く新しいアプローチ。
+            触れるか触れないかの優しさで、体は劇的に変わります。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 講座案内 ========== -->
+  <section class="section courses" id="courses">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Courses</span>
+        <h2 class="section__title">講座案内</h2>
+        <p class="section__lead">
+          受講資格は必要ありません。<br>
+          あなたのペースで、自分を大切にする技術を学びましょう。
+        </p>
+      </div>
+
+      <div class="courses__grid">
+        <!-- 講座1 -->
+        <div class="course__card fade-up">
+          <div class="course__card-badge">人気No.1</div>
+          <div class="course__card-header">
+            <span class="course__card-label">Course 01</span>
+            <h3 class="course__card-title">セルフケアマスター<br>養成講座</h3>
+          </div>
+          <div class="course__card-body">
+            <p class="course__card-desc">
+              さとう式リンパケアの『セルフケア』の全てを学ぶ養成講座。
+              美容に効果的なケア、肩こりなどの不調を解消するケアなど、
+              様々なケアテクニックを習得。修了後は講座を開講することもできます。
+            </p>
+            <ul class="course__card-features">
+              <li>✦ 受講資格なし・どなたでも参加可能</li>
+              <li>✦ 修了後に講師として開講できる</li>
+              <li>✦ 美容ケア・不調解消ケアを網羅</li>
+              <li>✦ オンライン受講OK</li>
+            </ul>
+            <div class="course__card-info">
+              <div class="course__card-info-item">
+                <span class="course__card-info-label">受講料</span>
+                <span class="course__card-info-value">¥165,000〜<small>（税込）</small></span>
+              </div>
+              <div class="course__card-info-item">
+                <span class="course__card-info-label">講座時間</span>
+                <span class="course__card-info-value">6時間 × 3日間</span>
+              </div>
+            </div>
+          </div>
+          <div class="course__card-footer">
+            <a href="#contact" class="btn btn--primary btn--full">お問い合わせ・申し込み</a>
+          </div>
+        </div>
+
+        <!-- 講座2 -->
+        <div class="course__card fade-up delay-1">
+          <div class="course__card-header">
+            <span class="course__card-label">Course 02</span>
+            <h3 class="course__card-title">ビューティーカフ<br>基礎講座</h3>
+          </div>
+          <div class="course__card-body">
+            <p class="course__card-desc">
+              アクセサリーとしてお洒落も楽しめ、ケアをより効率的にするあなただけのスペシャルな「カフ」を作成。
+              からだも心も上向きになれる嬉しいグッズを、自分の手で作りましょう。
+            </p>
+            <ul class="course__card-features">
+              <li>✦ 受講資格なし・どなたでも参加可能</li>
+              <li>✦ オンライン受講OK</li>
+              <li>✦ 再受講制度あり（半額）</li>
+              <li>✦ 世界にひとつのカフを手作り</li>
+            </ul>
+            <div class="course__card-info">
+              <div class="course__card-info-item">
+                <span class="course__card-info-label">受講料</span>
+                <span class="course__card-info-value">¥15,000〜<small>（税込）</small></span>
+              </div>
+              <div class="course__card-info-item">
+                <span class="course__card-info-label">再受講料</span>
+                <span class="course__card-info-value">¥7,500〜<small>（税込）</small></span>
+              </div>
+              <div class="course__card-info-item">
+                <span class="course__card-info-label">講座時間</span>
+                <span class="course__card-info-value">2.5時間</span>
+              </div>
+            </div>
+          </div>
+          <div class="course__card-footer">
+            <a href="#contact" class="btn btn--primary btn--full">お問い合わせ・申し込み</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="courses__note fade-up">
+        ※ すべての講座はオンライン（Zoom）で受講可能です。詳細はお問い合わせください。
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== イヤーカフ ========== -->
+  <section class="section earcuffs" id="earcuffs">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Ear Cuffs</span>
+        <h2 class="section__title">イヤーカフ</h2>
+        <p class="section__lead">
+          さとう式リンパケアのために生まれた、特別なイヤーカフ。<br>
+          ケアしながら、おしゃれも楽しめます。
+        </p>
+      </div>
+
+      <div class="earcuffs__grid">
+        <!-- 商品1 -->
+        <div class="earcuff__card fade-up">
+          <div class="earcuff__card-img-wrap">
+            <div class="earcuff__card-img-placeholder">
+              <svg viewBox="0 0 80 80" fill="none">
+                <circle cx="40" cy="40" r="30" stroke="currentColor" stroke-width="1"/>
+                <path d="M30 40c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="earcuff__card-body">
+            <h3 class="earcuff__card-title">シンプルイヤーカフ</h3>
+            <p class="earcuff__card-desc">飾りのないシンプルなデザイン。日常使いにも、ケアにも。</p>
+            <p class="earcuff__card-price">¥6,600<small>（税込）</small></p>
+          </div>
+        </div>
+
+        <!-- 商品2 -->
+        <div class="earcuff__card fade-up delay-1">
+          <div class="earcuff__card-img-wrap">
+            <div class="earcuff__card-img-placeholder">
+              <svg viewBox="0 0 80 80" fill="none">
+                <circle cx="40" cy="40" r="30" stroke="currentColor" stroke-width="1"/>
+                <path d="M28 40c0-6.6 5.4-12 12-12s12 5.4 12 12-5.4 12-12 12" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+                <circle cx="40" cy="40" r="4" fill="currentColor" opacity="0.3"/>
+              </svg>
+            </div>
+          </div>
+          <div class="earcuff__card-body">
+            <h3 class="earcuff__card-title">テラヘルツイヤーカフ</h3>
+            <p class="earcuff__card-desc">テラヘルツ素材使用。より深いケア効果を求める方に。</p>
+            <p class="earcuff__card-price">¥7,700<small>（税込）</small></p>
+          </div>
+        </div>
+
+        <!-- 商品3 -->
+        <div class="earcuff__card fade-up delay-2">
+          <div class="earcuff__card-img-wrap">
+            <div class="earcuff__card-img-placeholder">
+              <svg viewBox="0 0 80 80" fill="none">
+                <circle cx="40" cy="40" r="30" stroke="currentColor" stroke-width="1"/>
+                <path d="M34 32l6 8 6-8" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="40" cy="48" r="3" stroke="currentColor" stroke-width="1"/>
+              </svg>
+            </div>
+          </div>
+          <div class="earcuff__card-body">
+            <h3 class="earcuff__card-title">チャーム（別売り）</h3>
+            <p class="earcuff__card-desc">カフに付けて、自分だけのスタイルに。種類豊富にご用意。</p>
+            <p class="earcuff__card-price">価格はショップでご確認ください</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="earcuffs__shop fade-up">
+        <p class="earcuffs__shop-text">商品のご購入はオンラインショップ（BASE）にて</p>
+        <a href="#" class="btn btn--primary btn--lg" target="_blank" rel="noopener noreferrer">
+          オンラインショップを見る
+        </a>
+        <p class="earcuffs__shop-note">※ BASEショップへ移動します</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== プロフィール ========== -->
+  <section class="section profile" id="profile">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Profile</span>
+        <h2 class="section__title">プロフィール</h2>
+      </div>
+
+      <div class="profile__inner">
+        <!-- 写真エリア -->
+        <div class="profile__photo fade-up">
+          <div class="profile__photo-wrap">
+            <!-- 写真または似顔絵をここに配置 -->
+            <div class="profile__photo-placeholder">
+              <svg viewBox="0 0 120 120" fill="none">
+                <circle cx="60" cy="45" r="22" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M20 100c0-22 17.9-40 40-40s40 17.9 40 40" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <p>Photo / Illustration</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- テキストエリア -->
+        <div class="profile__content fade-up delay-1">
+          <h3 class="profile__name">Elymph</h3>
+          <p class="profile__title">元手術室看護師（20年）／さとう式リンパケアインストラクター</p>
+
+          <div class="profile__story">
+            <p>
+              看護師として20年間、手術室で働き続けました。
+              その後、入退院支援室へ。患者さんの「その後の生活」に寄り添う日々の中で、
+              母の死、父の介護と死を経験し、心身ともにぼろぼろになっていた時期がありました。
+            </p>
+            <p>
+              そんなとき出会ったのが「さとう式リンパケア」。
+              「<strong>頑張ったら破門</strong>」という言葉に衝撃を受け、実践するうちに
+              「もう頑張らなくてもいい」と思えるように。
+              許せることが増え、少しずつ自分を取り戻していきました。
+            </p>
+            <p>
+              同じように苦しんでいる人に、この体験を届けたい。<br>
+              そんな想いでMe Treatは生まれました。
+            </p>
+          </div>
+
+          <div class="profile__credentials">
+            <h4 class="profile__credentials-title">資格・経歴</h4>
+            <ul class="profile__credentials-list">
+              <li>看護師歴 30年</li>
+              <li>さとう式リンパケアインストラクター</li>
+              <li>終末期ケア専門士</li>
+              <li>看取り士</li>
+              <li>ケアビューティスト</li>
+            </ul>
+          </div>
+
+          <p class="profile__location">📍 愛知県在住 / オンライン全国対応</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Note ========== -->
+  <section class="section notes" id="notes">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Note</span>
+        <h2 class="section__title">Noteで発信中</h2>
+        <p class="section__lead">
+          さとう式のこと、自分を大切にすることのヒントを<br>
+          noteで綴っています。
+        </p>
+      </div>
+
+      <div class="notes__cards fade-up">
+        <!-- noteカード -->
+        <a href="https://note.com/mitreat" class="note__card" target="_blank" rel="noopener noreferrer">
+          <div class="note__card-icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <rect x="4" y="4" width="32" height="32" rx="6" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M12 15h16M12 20h12M12 25h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="note__card-body">
+            <p class="note__card-text">Elymphの最新記事を読む</p>
+            <span class="note__card-link">note.com/mitreat →</span>
+          </div>
+        </a>
+
+        <!-- Instagramカード（noteと同形式） -->
+        <a href="https://www.instagram.com/elymph8888/" class="note__card" target="_blank" rel="noopener noreferrer">
+          <div class="note__card-icon">
+            <svg viewBox="0 0 40 40" fill="none">
+              <rect x="4" y="4" width="32" height="32" rx="8" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="20" cy="20" r="7" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="29" cy="11" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="note__card-body">
+            <p class="note__card-text">Instagramをフォローする</p>
+            <span class="note__card-link">instagram.com/elymph8888 →</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="notes__cta fade-up">
+        <a href="https://note.com/mitreat" class="btn btn--outline btn--lg" target="_blank" rel="noopener noreferrer">
+          noteをフォローする
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== お問い合わせ ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section__header fade-up">
+        <span class="section__label">Contact</span>
+        <h2 class="section__title">お問い合わせ</h2>
+        <p class="section__lead">
+          講座のご質問・ご予約はLINE公式アカウントより<br>
+          お気軽にメッセージをお送りください。
+        </p>
+      </div>
+
+      <div class="contact__inner fade-up">
+        <div class="contact__card">
+          <div class="contact__icon">
+            <!-- LINEアイコン -->
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="48" height="48" rx="12" fill="#06C755"/>
+              <path d="M38 22.3C38 16.6 32.1 12 24.9 12c-7.3 0-13.1 4.6-13.1 10.3 0 5.1 4.5 9.3 10.6 10.1.4.1 1 .3 1.1.7.1.4 0 .9 0 .9l-.3 1.6c-.1.5-.4 2.1 1.8 1.1 2.2-1 11.9-7 16.3-12 3-3.3 1.7-3.4 1.7-3.4z" fill="white"/>
+            </svg>
+          </div>
+          <h3 class="contact__card-title">LINE公式アカウント</h3>
+          <p class="contact__card-desc">
+            友だち追加後、お気軽にメッセージをお送りください。<br>
+            講座の詳細・日程のご相談もこちらから。
+          </p>
+          <!-- LINE公式アカウントURLを取得後に差し替え -->
+          <a href="#" class="btn btn--line btn--lg">
+            <svg viewBox="0 0 20 20" fill="none" style="width:20px;height:20px;">
+              <rect width="20" height="20" rx="5" fill="#06C755"/>
+              <path d="M16 9.3C16 6.5 13.3 4 10 4S4 6.5 4 9.3c0 2.5 2.2 4.7 5.3 5.1.2 0 .5.1.5.4v.8s0 .4-.5.6c.7 0 5.8-3.4 7.9-5.9C17 8.8 16 9.3 16 9.3z" fill="white"/>
+            </svg>
+            LINEで友だち追加
+          </a>
+          <p class="contact__card-note">※ LINE公式アカウントは準備中です</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== フッター ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <img src="images/logo.png" alt="Me Treat" class="footer__logo">
+          <p class="footer__tagline">今日から、私が一番大事。</p>
+        </div>
+
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li><a href="#about">さとう式とは</a></li>
+            <li><a href="#courses">講座案内</a></li>
+            <li><a href="#earcuffs">イヤーカフ</a></li>
+            <li><a href="#profile">プロフィール</a></li>
+            <li><a href="#notes">Note</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer__sns">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/elymph8888/" class="footer__sns-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="5"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+          <!-- note -->
+          <a href="https://note.com/mitreat" class="footer__sns-link" target="_blank" rel="noopener noreferrer" aria-label="note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="3" y="3" width="18" height="18" rx="4"/>
+              <path d="M7 8h10M7 12h8M7 16h6" stroke-linecap="round"/>
+            </svg>
+          </a>
+          <!-- LINE -->
+          <a href="#" class="footer__sns-link" aria-label="LINE">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <path d="M19 11.1C19 8.3 16.3 6 13 6S7 8.3 7 11.1c0 2.5 2.2 4.6 5.3 5l.5.3v.8c0 .3-.5.5-.5.5 3.5-.5 6.7-3.4 6.7-6.6z" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2026 Me Treat / Elymph. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
