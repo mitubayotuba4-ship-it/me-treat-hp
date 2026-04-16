@@ -513,6 +513,63 @@
     </div>
   </footer>
 
+  <!-- ========== AIチャットボット ウィジェット ========== -->
+
+  <!-- チャット開閉ボタン（画面右下に固定） -->
+  <button class="chat-toggle" id="chatToggleBtn" aria-label="AIアシスタントを開く">
+    <!-- チャットアイコン（通常時） -->
+    <svg class="chat-toggle__icon chat-toggle__icon--open" viewBox="0 0 24 24" fill="none">
+      <path d="M12 2C6.48 2 2 6.03 2 11c0 2.62 1.19 4.97 3.07 6.62L4 21l3.84-1.23C9.13 20.55 10.52 21 12 21c5.52 0 10-4.03 10-9s-4.48-9-10-9z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+      <path d="M8 10.5h8M8 14h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <!-- 閉じるアイコン（展開時） -->
+    <svg class="chat-toggle__icon chat-toggle__icon--close" viewBox="0 0 24 24" fill="none">
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <!-- 通知バッジ -->
+    <span class="chat-toggle__badge" id="chatBadge">AI</span>
+  </button>
+
+  <!-- チャットウィンドウ -->
+  <div class="chat-window" id="chatWindow" role="dialog" aria-label="AIアシスタント">
+    <!-- ヘッダー -->
+    <div class="chat-window__header">
+      <div class="chat-window__header-info">
+        <span class="chat-window__avatar">✦</span>
+        <div>
+          <p class="chat-window__title">Me Treat AI</p>
+          <p class="chat-window__subtitle">さとう式リンパケアについてご質問ください</p>
+        </div>
+      </div>
+      <button class="chat-window__close" id="chatClose" aria-label="チャットを閉じる">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- メッセージエリア -->
+    <div class="chat-window__messages" id="chatMessages"></div>
+
+    <!-- 入力エリア -->
+    <form class="chat-window__input-area" id="chatForm">
+      <textarea
+        class="chat-window__input"
+        id="chatInput"
+        placeholder="ご質問をどうぞ…"
+        rows="1"
+        maxlength="1000"
+        aria-label="メッセージを入力"
+      ></textarea>
+      <button class="chat-window__send" id="chatSendBtn" type="submit" aria-label="送信">
+        <svg viewBox="0 0 24 24" fill="none">
+          <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+    </form>
+  </div>
+
   <script src="js/main.js"></script>
+  <script src="js/chat.js"></script>
 </body>
 </html>
