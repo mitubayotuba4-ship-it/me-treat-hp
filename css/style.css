@@ -5,10 +5,10 @@
 
 /* ---------- カラー変数 ---------- */
 :root {
-  --tiffany-blue: #81D8D0;
-  --tiffany-blue-dark: #5BBFB5;
-  --tiffany-blue-light: #B8EDE9;
-  --tiffany-blue-pale: #EEF9F8;
+  --tiffany-blue: #0ABAB5;
+  --tiffany-blue-dark: #089490;
+  --tiffany-blue-light: #5CCFCB;
+  --tiffany-blue-pale: #E0F8F7;
   --gold: #C9A84C;
   --gold-light: #E8C97A;
   --gold-pale: #FBF5E6;
@@ -17,8 +17,8 @@
   --text-dark: #3A3A3A;
   --text-mid: #6B6B6B;
   --text-light: #9A9A9A;
-  --border: rgba(129, 216, 208, 0.3);
-  --shadow: rgba(91, 191, 181, 0.15);
+  --border: rgba(10, 186, 181, 0.3);
+  --shadow: rgba(8, 148, 144, 0.15);
 }
 
 /* ---------- リセット・ベース ---------- */
@@ -325,7 +325,7 @@ ul {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(100, 200, 195, 0.12);
+  background: rgba(10, 186, 181, 0.12);
 }
 
 /* 2枚目水面：文字エリアのグラデーションを強化 */
