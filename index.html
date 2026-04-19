@@ -516,7 +516,7 @@
   <!-- ========== AIチャットボット ウィジェット ========== -->
 
   <!-- チャット開閉ボタン（画面右下に固定） -->
-  <button class="chat-toggle" id="chatToggleBtn" aria-label="AIアシスタントを開く">
+ <button class="chat-toggle" id="chatToggleBtn" style="display:none;" aria-label="AIアシスタントを開く">
     <!-- チャットアイコン（通常時） -->
     <svg class="chat-toggle__icon chat-toggle__icon--open" viewBox="0 0 24 24" fill="none">
       <path d="M12 2C6.48 2 2 6.03 2 11c0 2.62 1.19 4.97 3.07 6.62L4 21l3.84-1.23C9.13 20.55 10.52 21 12 21c5.52 0 10-4.03 10-9s-4.48-9-10-9z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
@@ -531,7 +531,7 @@
   </button>
 
   <!-- チャットウィンドウ -->
-  <div class="chat-window" id="chatWindow" role="dialog" aria-label="AIアシスタント">
+ <div class="chat-window" id="chatWindow" style="display:none;" role="dialog" aria-label="AIアシスタント">
     <!-- ヘッダー -->
     <div class="chat-window__header">
       <div class="chat-window__header-info">
