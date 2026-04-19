@@ -5,7 +5,7 @@
 /* ---------- 設定 ---------- */
 const CHAT_CONFIG = {
   // バックエンドサーバーのURL（本番環境では変更してください）
-  apiUrl: 'http://localhost:3000/api/chat',
+ apiUrl: '/api/chat', 
   // ウェルカムメッセージ
   welcomeMessage: `こんにちは！Me Treatへようこそ。\nさとう式リンパケアや講座について、お気軽にご質問ください 🌿`,
 };
